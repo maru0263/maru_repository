@@ -1,0 +1,127 @@
+header{
+  margin: 0 auto;
+  width: 850px;
+  margin-bottom: 55px;
+}
+.headerlogo{
+  display: flex;
+  align-items: center;
+  background-color: #eaaf46;
+  height:126px;
+  width:100%;
+  padding-left: 44px;
+  margin-bottom: 32px;
+}
+.headercontent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headercontent h1{
+  color: #eaaf46;
+  font-size: 80px;
+  font-family: Bebas;
+  letter-spacing: 0.1em;
+  transform: scale(0.8, 1.2);
+  padding: 0;
+  margin-bottom: 20px;
+}
+.headercontent p{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.contents{
+  width: 715px;
+  margin: 0 auto;
+}
+.contents h2{
+  font-size: 30px;
+  margin-bottom: 24px;
+  font-family: Bebas;
+}
+.article{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 41px;
+}
+figure{
+  flex-shrink: 0;
+}
+.first figure{
+  margin-right: 23px;
+}
+.second figure{
+  margin-left: 23px;
+}
+.third figure{
+  margin-right: 23px;
+}
+.comment h3{
+  font-family: Bebas;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+.comment .wrapup{
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.comment .readmore{
+  background-color: #eaaf46;
+  padding: 7px 45.5px;
+  display: inline-block;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Bebas;
+}
+.comment a{
+  text-decoration: none;
+  color: #000;
+}
+.second .comment .right {
+  display: flex;
+  justify-content: flex-end;
+}
+.second .comment .readmore p{
+  display: block;
+}
+footer{
+  width: 850px;
+  margin: 0 auto 45px auto;
+}
+.upr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 133px;
+  background-color: #eaaf46;
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.upr p{
+  margin-bottom: 25px;
+}
+.lwr ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lwr ul li{
+  font-family: Arial;
+  font-size: 16px;
+}
+.lwr ul li a{
+  text-decoration: none;
+  color: #000;
+}
